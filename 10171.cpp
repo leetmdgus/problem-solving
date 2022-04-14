@@ -1,0 +1,15 @@
+//고양이 출력
+
+#include <iostream>
+
+using namespace std;
+
+
+int main(void)
+{
+    cout<<"\\    /\\"<<endl;
+    cout<<" )  ( ')"<<endl;
+    cout<<"(  /  )"<<endl;
+    cout<<" \\(__)|"<<endl;
+    return 0;
+}
