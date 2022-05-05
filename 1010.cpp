@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-float fact(int );
+long long combi(int, int );
 
 int main(void)
 {    
@@ -11,20 +11,34 @@ int main(void)
 
     while(repeat--)
     {
-        int N, M;
+        long long N, M;
         cin>>N>>M;
+        long long result = 1; // fact(M)/fact(M-N)/fact(N);
 
-        float case_num;
-        case_num = fact(M) / fact(M-N) / fact(N);
-        
-        cout<<case_num<<"\n";
+        result = combi(M, N);
+
+        cout<<result<<"\n";
     }
     return 0;
 }
 
-float fact(int x)
-{
-    if(x <= 1)
-        return 1;
-    return x*fact(x-1);
+
+long long combi(int M, int N){
+    int i;
+    long long mult_up = 1; long long mult_down = 1;
+
+    if(N>M/2) 
+    {
+        N = M-N; // mCn == mCm-n
+    }
+    for(i=0; i < N; i++)
+    {
+        mult_up *= M - i;		
+    }
+    for(i=0; i < N; i++)
+    {
+        mult_down *= N - i;
+    }
+
+    return mult_up / mult_down;
 }
