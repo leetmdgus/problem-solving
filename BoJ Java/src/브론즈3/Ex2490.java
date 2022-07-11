@@ -1,12 +1,15 @@
-package 번호2490;
+// 2490번 윷놀이
+// 브론즈3
+// 알고리즘 분류: 구현
+
+package 브론즈3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
 public class Ex2490 {
-    static int calculBack(String[] arr) {
+    private static int calculBack(String[] arr) {
         int back = 0;
         for(String zeroOrOne: arr) {
             if(zeroOrOne.equals("0")) {
@@ -15,7 +18,7 @@ public class Ex2490 {
         }
         return back;
     }
-    static void printResult(int back) {
+    private static void printResult(int back) {
         char[] resultList = {'A', 'B', 'C', 'D', 'E'};
         if(back == 0) {
             System.out.println('E');
