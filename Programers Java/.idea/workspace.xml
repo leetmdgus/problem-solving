@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bde5728-c506-42ac-aacb-bceeaf2eefc9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/골드3/Ex10986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/골드4/Ex1806/Ex1806.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/브론즈1/Ex11050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/브론즈1/Ex1546.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/브론즈2/Ex2747.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/브론즈2/Ex2798.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/브론즈2/Ex3052/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/브론즈4/Ex11720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버1/Ex1160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버3/Ex17413/Ex17413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버3/Ex1929/Ex1929.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버3/Ex3273/Ex3273.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버4/Ex10773/Ex10773.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버4/Ex10828/Ex10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버4/Ex1158/Ex1158.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버4/Ex4949/Ex4949.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버5/Ex1010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/실버5/Ex1010_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoJ Java/src/플래티넘5/Ex6549/Ex6549.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex42586/Ex42586.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoJ Java/out/production/BoJ Java/브론즈5/Ex10757.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoJ Java/out/production/BoJ Java/브론즈5/Ex10757.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoJ Java/out/production/BoJ Java/실버3/Ex11659.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoJ Java/out/production/BoJ Java/실버3/Ex11659.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoJ Java/src/번호1000/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoJ Java/src/실버3/Ex11659.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoJ Java/src/실버3/Ex11659.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CC7sNFuSd7xF5I14QLSZl8O1Uo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "C:/my BOJ project/BoJ Java",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Ex42586" />
+      <recent name="src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Ex42586" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex42586.Ex42586" />
+      <module name="Programers Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex42586.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Ex42586" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="7bde5728-c506-42ac-aacb-bceeaf2eefc9" name="변경" comment="" />
+      <created>1658294918769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658294918769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
