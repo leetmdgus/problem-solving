@@ -1,0 +1,31 @@
+package 백준.브론즈.브론즈2.Ex1009;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(br.readLine());
+
+        StringBuilder sb = new StringBuilder();
+        while(t-->0) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            int r = 1;
+            for(int i = 0; i<b; i++) {
+                r = (r*a)%10;
+            }
+            if(r == 0) {
+                r = 10;
+            }
+            sb.append(r);
+            sb.append('\n');
+        }
+
+        System.out.println(sb);
+    }
+}
