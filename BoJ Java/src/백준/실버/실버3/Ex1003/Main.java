@@ -1,4 +1,4 @@
-package 백준.실버.실버3.Ex1003_2;
+package 백준.실버.실버3.Ex1003;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,8 +11,8 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
 
-        countArr[0][0] = 1; // 0count = 1;
-        countArr[1][1] = 1; // 1count = 1;
+        countArr[0][0] = 1;
+        countArr[1][1] = 1;
 
         StringBuilder sb = new StringBuilder();
         while (t-- > 0) {
@@ -24,11 +24,11 @@ public class Main {
         System.out.println(sb);
     }
 
-
     public static void fibonacci(int n) {
         if (n == 0 || n == 1) {
             return;
         }
+
         if (countArr[n][0] != 0 || countArr[n][1] != 0) {
             return;
         }
