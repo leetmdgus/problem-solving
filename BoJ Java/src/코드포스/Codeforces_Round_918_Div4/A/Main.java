@@ -7,18 +7,18 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
 
-        StringBuilder sb= new StringBuilder();
-        while(t-- > 0) {
-            StringTokenizer st= new StringTokenizer(br.readLine());
+        StringBuilder sb = new StringBuilder();
+        while (t-- > 0) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             int c = Integer.parseInt(st.nextToken());
-            if(a == b) {
+            if (a == b) {
                 sb.append(c).append('\n');
-            } else if( b== c) {
+            } else if (b == c) {
                 sb.append(a).append('\n');
             } else {
                 sb.append(b).append('\n');
