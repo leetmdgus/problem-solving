@@ -1,4 +1,4 @@
-package 코드포스.Codeforces_ROund_916_Div3.A;
+package 코드포스.Codeforces_Round_916_Div3.A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
