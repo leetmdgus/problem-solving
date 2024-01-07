@@ -11,21 +11,22 @@ int main(void) {
     int n;
     cin >> n;
 
-    vector<string> v;
+    vector<long long> v;
 
-    for(int i = 0; i<n; i++) {
+    for (int i = 0; i < n; i++) {
         string str;
         cin >> str;
-        
+
         reverse(str.begin(), str.end());
-        v.push_back(str);
+        v.push_back(stoll(str));
     }
 
-    // sort(arr, arr+n);
+    sort(v.begin(), v.end());
 
-    // for(int i = 0;i <n; i++) {
-    //     cout << stoi(arr[i]) << "\n";
-    // }
+    vector<long long>::iterator iter;
+    for (iter = v.begin(); iter != v.end(); iter++) {
+        cout << *iter << "\n";
+    }
 
-    return 0; 
+    return 0;
 }
