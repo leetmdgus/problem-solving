@@ -17,8 +17,12 @@ int main(void) {
         string str;
         cin >> str;
 
-        reverse(str.begin(), str.end());
-        v.push_back(stoll(str));
+        reverse(str.begin(), str.end()); 
+        v.push_back(stol(str)); 
+        // stoi -> sting to int
+        // stof -> string to float
+        // stol -> string to long
+        // stod -> string to double
     }
 
     sort(v.begin(), v.end());
