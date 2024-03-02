@@ -10,29 +10,29 @@ public class Main {
         int m = Integer.parseInt(br.readLine());
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            arrayList.add(Integer.parseInt(st.nextToken()));
+        int[] arr = new int[n];
+        for(int i =0 ;i<n; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        if (n == 1) {
-            if (arrayList.get(0) == m) {
-                System.out.println(1);
+        Arrays.sort(arr);
+
+        int p1 = 0;
+        int p2 = n-1;
+
+        int cnt = 0;
+        while(p1 < p2) {
+            if(arr[p1] + arr[p2] == m) {
+                p1++;
+                p2--;
+                cnt++;
+            } else if(arr[p1] + arr[p2] > m){
+                p2--;
+            } else {
+                p1++;
             }
-            return;
         }
 
-        Collections.sort(arrayList);
-
-        int count = 0;
-        for(int i=0; i<n; i++){
-            for(int j=i+1; j<n; j++){
-                if(m==arrayList.get(i)+ arrayList.get(j)){
-                    count++;
-                }
-            }
-        }
-
-        System.out.println(count);
+        System.out.println(cnt);
     }
 }
