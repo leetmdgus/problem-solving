@@ -6,19 +6,18 @@ int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
     
-    int t;
-    cin >> t;
-
+    int n;
+    cin >> n;
     priority_queue<int, vector<int>, greater<int>> pq;
 
-    while(t--) {
+    for(int i = 0; i<n; i++) {
         int x;
         cin >> x;
         pq.push(x);
     }
-    
+
     while(!pq.empty()) {
-        cout << pq.top() << "\n";
+        cout << pq.top() << '\n';
         pq.pop();
     }
 
